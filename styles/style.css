@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    background-color: #F6F2F0;
+    font-family: "Inter", sans-serif;
+}
+
+:root {
+    --primary_color: #FF5588;
+}
+
+.container {
+    padding: 20px 80px !important;
+    display: flex;
+}
+
+.profile-data {
+    width: 19%;
+    margin-top: 75px;
+}
+
+.icons {
+    margin-top: 10px !important;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 30px;
+}
+
+.profile-data button {
+    width: 165px;
+    margin: 20px 30px;
+    border: 1px solid #333333;
+    border-radius: 4px;
+    padding: 10px 40px;
+    cursor: pointer;
+}
+
+.profile-details {
+    margin-left: 30px;
+}
+
+.profile-details .intro h2 {
+    color: var(--primary_color);
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.profile-details .intro h1 {
+    margin: 30px 0px;
+    font-size: 64px;
+    font-weight: 400;
+}
+
+.work-done {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.work-done .projects {
+    text-align: center;
+}
+
+.work-done .projects h1 {
+    color: var(--primary_color);
+}
+
+.work-done .projects span {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+
+/* contact */
+
+.contact{
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--primary_color);
+    margin: 40px 0px;
+}
+
+.form-input{
+    margin: 20px 0px;
+}
+
+.form-input input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #c7c1c3;
+    width: 400px;
+    padding: 6px;
+}
+
+.form-input input:focus{
+    outline: none;
+}
+
+.form-textarea textarea{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #c7c1c3;
+    padding: 6px;
+}
+
+
+.form-textarea textarea:focus{
+    outline: none;
+   
+}
+.hire-btn{
+    padding: 15px 55px;
+    border-radius: 15px;
+    border: 1px solid #c7c1c3;
+    margin: 20px 0px;
+}
